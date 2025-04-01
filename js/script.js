@@ -84,10 +84,11 @@ document.addEventListener("DOMContentLoaded", () => {
             checkoutButton.style.fontSize = "18px";
             checkoutButton.style.marginTop = "20px";
             checkoutButton.style.padding = "10px 20px";
-            checkoutButton.style.backgroundColor = "#ff6347";
+            checkoutButton.style.backgroundColor = "crimson";
             checkoutButton.style.color = "white";
             checkoutButton.style.border = "none";
             checkoutButton.style.cursor = "pointer";
+            checkoutButton.classList.add("btn");
 
             checkoutButton.onclick = () => {
                 if (confirm("Are you sure you want to place the order?")) {
